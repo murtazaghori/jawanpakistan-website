@@ -1,0 +1,392 @@
+body{
+      overflow-x: hidden;
+
+
+}
+
+.main{
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  /* border-top: 1px solid rgb(77, 75, 75); */
+  
+
+   
+}
+.img{ 
+ width: 250px;
+ margin-left: 50px;
+ margin-top: 5px;
+ border-right: 1px solid black;
+ padding-right: 20px;
+ margin-top: 30px;
+  
+}
+ 
+
+.selector{
+  width: 100px;
+  margin-right: 40px;
+  border: 20px;
+  font-size: 20px;
+}
+ .column{
+  padding: 20px;
+ }
+ .train{
+  display: none;
+ }
+ul li{
+list-style-type: none;
+display: inline-block;
+padding-right: 50px;
+color: rgb(77, 75, 75); 
+
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+ color:green;  
+}
+.main2 h1{
+  margin-top: 120px;
+  margin-left: 60px;
+   font-size: 34px;
+   line-height: 50px;
+   color: rgb(2, 87, 2); 
+   font-family: 'Fira Sans',sans-serif; 
+}
+.main2 p{
+  margin-left: 60px;
+  font-size: 20px;
+  line-height: 1.625;
+  color: rgb(170, 170, 177);
+
+}
+.main2{
+    box-shadow: 0px -23px 34px -20px rgba(0,0,0,0.1) inset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media(max-width:430px){
+  .main2{
+    margin: 0px !important;
+    
+  }
+  .main2 h1,p{
+    margin: 0px !important;
+    padding: 0px !important;
+     
+  
+ 
+    
+    
+  }
+}
+.img2{
+width: 550px;
+margin-top: -350px;
+margin-left: 800px;
+ 
+}
+ 
+ .heading2{
+  margin-top: 130px;
+  margin-left: 700px;
+  color: rgb(2, 87, 2); 
+   font-family: 'Fira Sans',sans-serif; 
+   line-height: 50px;
+     
+}
+  
+.para2{
+  margin-left: 680px;
+  line-height: 1.625;
+  color: rgb(170, 170, 177);
+  font-size: 17px;
+
+}
+.img3{
+  width: 600px;
+  height: auto;
+  /* margin-top: -800px;*/
+   position: absolute; 
+   top:830px;
+
+}
+ #main3{
+  box-shadow: 5px 16px 10px -10px rgba(0,0,0,0.75);
+   padding-top: 50px; 
+  padding-bottom: 50px; 
+ 
+ }
+ .main4 img{
+  margin-top: 140px;
+  margin-left: 565px;
+  border-radius: 50%;
+ }
+ .heading3{
+padding-top: 40px;
+text-align: center;
+  font-size: 40px;
+  color:rgb(2,80, 2);
+  font-weight: bold;
+  font-family: 'Fira Sans',sans-serif; 
+  
+ }
+ .imgli{
+  width: 50px;
+  height: 5px;
+  background-color: blue;
+  margin-left: 650px;
+  margin-top: 20px;
+  list-style-type: none;
+  border-radius: 20px;
+ }
+ .heading31{
+  text-align: center;
+  font-family: 'Fira Sans',sans-serif; 
+  color: rgb(170, 170, 177);
+ }
+.mainpara{
+  text-align: center;
+  color: rgb(119, 119, 119);
+}
+.main4{
+  box-shadow: 1px -23px 34px -20px rgba(0,0,0,0.1) inset;
+   padding-top: 50px; 
+  padding-bottom: 50px;
+}
+i{
+  font-size: 50px;
+  margin-left: 650px;
+  padding-bottom: 20px;
+}
+#main5 h1{
+padding: 30px;
+text-align: center;
+font-family: 'Fira Sans',sans-serif; 
+color:rgb(1, 59, 1);
+font-size: 45px;
+}
+.img5{
+width: 400px;
+height: 300px;
+border-radius: 20px;
+margin-top: 100px;
+margin-left: 50px;
+
+}
+#main5 p{
+  margin-left: 90px;
+font-size: 22px;
+font-weight: bold;
+  
+}
+span{
+  padding-left: 65px;
+}
+.img6{  
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+ .image2{
+  margin-left: 425px;
+  margin-top: -500px;
+ }
+ .img7{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+ }
+ .image3{
+  margin-left: 860px;
+  margin-top: -450px;
+ }
+ .img7{
+  /* padding-left: 50px; */
+ }
+ .img8{
+  width: 400px;
+  height: 300px;
+  margin-left: 250px;
+  margin-top:80px;
+  border-radius: 20px;
+ }
+ .image4 p{
+  margin-left: 250px;
+  font-size: 24px;
+  font-weight: bold;
+ }
+ .img9{
+  width: 400px;
+  height: 300px;
+  margin-left: 250px;
+  margin-top:80px;
+  border-radius: 20px;
+ }
+ .image5 p{
+  margin-left: 310px;
+  font-size: 24px;
+  font-weight: bold;
+ }
+ .image5{
+  margin-left: 470px;
+  margin-top: -460px;
+   
+ }
+ #main5{
+  box-shadow: 5px 16px 10px -10px rgba(0, 0, 0,0.75);
+  padding-top: 50px;
+  padding-bottom:50px;
+ }
+  .image6 h1{
+    text-align: center;
+    font-family: 'Fira Sans',sans-serif; 
+color:rgb(1, 59, 1);
+font-size: 45px;
+padding-top: 40px;
+    
+  }
+ .img10{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 30px;
+ }
+.img11{
+  width: 300px;
+  height: 225px;
+  padding-left: 10px;
+}
+.submain2 img {
+  width: 604px;
+  margin-left: 680px;
+  margin-top: -230px;
+}
+.submain3 img{
+  width: 615px;
+  margin-top: -160px;
+  margin-left: 50px;
+}
+ .submain4 img{
+  width: 300px;
+  height: 235px;
+  
+ }
+ .img12{
+  width: 350px;
+  height: 235px;
+ }
+ .submain4{
+  margin-left: 680px;
+  margin-top: -240px;
+ }
+  .image6{
+   border-bottom: 1px solid rgb(202, 199, 199);
+   padding: 10px;
+  
+ }
+ .myInput{
+  width: 590px;  
+ height: 40px;
+ }
+  #contact{
+    font-family: sans-serif;
+    /* border: 1px solid rgb(201, 198, 198); */
+   margin-top: 50px;
+   max-width: 650px;
+   /* min-width: 900px; */
+   margin-left: 350px;
+   padding-left: 20px;
+   box-shadow:0px 15px 23px 5px rgba(0, 0, 0,0.17) ;
+
+  }
+  #contact h1{
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(110, 107, 107);
+     
+  }
+  .name{
+    color:  rgb(145, 145, 146);
+    padding-left: 10px;
+  }
+  #textarea{
+    border-radius: 5px;
+    
+     
+  }
+  #contact button{
+    color: white;
+    background-color:#004e0d;
+    margin-top: 10px;
+    width: 600px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+  }
+      
+
+  #contact button:hover{
+    color: rgb(22, 22, 22);
+    background-color: rgb(235, 227, 227)
+  }
+  .murtaza{
+    border-bottom: 1px solid black;
+    padding: 30px;
+  }
+  .img13{
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+  .contact2 ol{
+    list-style-type: none;
+    margin-left: 490px;
+    margin-top: -120px;
+  }
+  .contact2 li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:green;
+    
+  }
+  .khan{
+    margin-left: 1000px;
+    margin-top: -125px;
+  }
+  .contact2 p{
+    margin-left: 1000px;
+    margin-top: -10px;
+  }
+  .ghori{
+    width: 100%;
+    background-color:rgb(234,255, 247);
+    margin-top: 80px;
+    font-size: 20px;
+      padding-left: 40px;
+  }
+
+.fac{
+  padding-left: 900px;
+  padding-bottom: 5px;
+width: 35px;
+   
+  }
+.ins{
+width: 35px;
+padding-top: 10px;
+
+}
+
+
+
+
